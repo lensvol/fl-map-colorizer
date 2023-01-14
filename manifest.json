@@ -1,0 +1,28 @@
+{
+  "name": "FL Map Colorizer",
+  "description": "Show colourful map of Fallen London in compatibility mode.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["webRequestBlocking", "webRequest", "https://*.amazonaws.com"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "host_permissions": [
+    "https://*.amazonaws.com"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "/images/fl-small-mercies-icon-16.png",
+      "32": "/images/fl-small-mercies-icon-32.png",
+      "48": "/images/fl-small-mercies-icon-48.png",
+      "128": "/images/fl-small-mercies-icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/fl-small-mercies-icon-16.png",
+    "32": "/images/fl-small-mercies-icon-32.png",
+    "48": "/images/fl-small-mercies-icon-48.png",
+    "128": "/images/fl-small-mercies-icon-128.png"
+  }
+}
