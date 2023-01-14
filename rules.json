@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://i.redd.it/jvp1ojvicpk41.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "*/london-fallback.jpg",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

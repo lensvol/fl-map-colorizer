@@ -3,15 +3,29 @@
   "description": "Show colourful map of Fallen London in compatibility mode.",
   "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": ["declarativeNetRequestWithHostAccess", "https://*.amazonaws.com"],
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "https://*.amazonaws.com/*",
+    "https://*.fallenlondon.com/"
+  ],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
-  "host_permissions": [
-    "https://*.amazonaws.com"
-  ],
-  "browser_action": {
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "map_redirect",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
     "default_icon": {
       "16": "/images/fl-map-colorizer-icon-16.png",
       "32": "/images/fl-map-colorizer-icon-32.png",
