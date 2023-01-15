@@ -2,15 +2,17 @@
   "name": "FL Map Colorizer",
   "description": "Show colourful map of Fallen London in compatibility mode.",
   "version": "1.0.0",
-  "manifest_version": 3,
-  "permissions": ["declarativeNetRequestWithHostAccess", "https://*.amazonaws.com"],
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.amazonaws.com/",
+    "https://*.fallenlondon.com/"
+  ],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
-  "host_permissions": [
-    "https://*.amazonaws.com"
-  ],
   "browser_action": {
     "default_icon": {
       "16": "/images/fl-map-colorizer-icon-16.png",
