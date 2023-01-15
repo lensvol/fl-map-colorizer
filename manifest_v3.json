@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeNetRequestWithHostAccess",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequest"
   ],
   "host_permissions": [
     "https://*.amazonaws.com/*",
