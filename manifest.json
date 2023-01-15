@@ -10,8 +10,8 @@
     "https://*.fallenlondon.com/"
   ],
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "page": "background.html",
+    "persistent": true
   },
   "browser_action": {
     "default_icon": {
