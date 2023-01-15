@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/github/license/lensvol/fl-map-colorizer)](https://github.com/lensvol/fl-map-colorizer/blob/master/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-map-colorizer)
 
+![screenshot](https://raw.githubusercontent.com/lensvol/fl-map-colorizer/master/screenshot.png)
+
 Conceptualized and implemented in the first draft by **Zolana**.
 
 Small extension that allows you to see full-coloured map of Fifth City in the map compatibility mode.
