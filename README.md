@@ -1,6 +1,8 @@
 # FL Map Colorizer
 
-[![License](https://img.shields.io/github/license/lensvol/fl-map-colorizer)](https://github.com/lensvol/fl-map-colorizer/blob/master/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-map-colorizer)
+[![License](https://img.shields.io/github/license/lensvol/fl-map-colorizer)](https://github.com/lensvol/fl-map-colorizer/blob/master/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-map-colorizer) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dkiiphcmedakdjkpepbjhnehapmikpmf)](https://chrome.google.com/webstore/detail/fl-map-colorizer/dkiiphcmedakdjkpepbjhnehapmikpmf) [![Mozilla Add-on](https://img.shields.io/amo/v/fl-map-coloriser)](https://addons.mozilla.org/en-GB/firefox/addon/fl-map-coloriser/)
+
+https://chrome.google.com/webstore/detail/fl-map-colorizer/dkiiphcmedakdjkpepbjhnehapmikpmf
 
 ![screenshot](https://raw.githubusercontent.com/lensvol/fl-map-colorizer/master/screenshot.png)
 
